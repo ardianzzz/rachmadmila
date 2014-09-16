@@ -1,0 +1,97 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+*,*:before,*:after {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y:scroll;
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+
+body {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-family: "Helvetica Neue", Arial, Sans-serif;
+
+    > div {
+      font-size: 1.4rem;
+    }
+}
+
+a {
+    color: rgb(86, 119, 252);
+    text-decoration:none;
+}
+
+/*a:visited {
+    color: #551a8b;
+}*/
+
+a:hover,a:focus {
+    color: rgb(86, 119, 252);
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

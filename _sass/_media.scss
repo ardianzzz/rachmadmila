@@ -1,0 +1,158 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+
+@media (min-width:767px) {
+
+	.entry {
+		.image-wrapper {
+			&:hover,&.hover_effect {
+
+				.prev,.next {
+					span {
+						background: rgba(0,0,0,0.125);
+						width: 4.8rem;
+						border-radius: .3rem;
+						border:solid .1rem rgba(0,0,0,0.05) !important;
+						opacity: 1;
+					}
+
+					svg {
+						fill:#fff;
+						margin:.8rem;
+					}
+
+					&:hover,&:focus {
+						span {
+							background: rgba(0,0,0,0.15);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hero {
+		h2 {
+			font-size: 3.8rem;
+			letter-spacing: -.15rem;
+		}
+	}
+
+	.ads {
+		margin:1.6rem auto;
+	}
+
+}
+
+
+@media (max-width:767px) {
+
+	
+	.grid .col {
+		width: 25%;
+	}
+}
+
+@media (max-width:480px) {
+
+
+	.site-header {
+		.container {
+			padding: 0 .5rem;
+		}
+	}
+
+	.main>.container {
+		padding:0;
+		overflow: hidden;
+	}
+
+
+	.container {
+		padding: 0;
+	}
+
+	.tabnav {
+		padding: 0 .8rem;
+	}
+
+	.upload-wrapper,.form-wrapper {
+		padding: 0 1.6rem;
+	}
+
+	
+
+	.grid {
+		padding: 0 .8rem;
+		margin:.8rem auto 0.4rem;
+
+
+
+		//padding:0 .5rem;
+
+		.row {
+			margin:0 -.2rem;
+		}
+		.col {
+			padding:0 .2rem;
+			width: 25%;
+			margin:0 0 .4rem;
+		}
+	}
+
+	.entry + .grid {
+
+		padding: 1rem;
+
+	}
+
+	.entry {
+
+		figure {
+			margin:0 auto;
+		}
+		.entry-title {
+			margin:0;
+			padding: 1.2rem .8rem 0;
+			font-size: 1.6rem;
+		}
+
+		.controls {
+			margin:0;
+			padding: 0 .8rem 1.2rem;
+		}
+
+		.entry-meta {
+			margin:0 .8rem 1.2rem;
+		}
+	}
+
+	#comments {
+			padding:0 .8rem;
+		
+	}
+
+
+}
+
+
+@media (max-width:479px) {
+
+	.grid .col {
+		width: 33.33333%;
+	}
+}
